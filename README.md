@@ -32,18 +32,6 @@ The editor has four tabs:
 
 Everything is saved in `config/itemchecklist.json`. Configs from older versions (a single list) are converted automatically to one list named "List 1".
 
-## Building
-
-Requirement: JDK 25.
-
-```
-./gradlew build
-```
-
-The finished mod is then located at `build/libs/itemchecklist-1.0.2.jar`
-(not the `-sources.jar`). It goes into the `mods` folder together with the Fabric API.
-
-Requires: Minecraft 26.3, Fabric Loader 0.19.5 or newer, Fabric API 0.165.0+26.3 or newer.
 
 ## Limitations
 
